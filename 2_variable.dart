@@ -7,7 +7,7 @@ void main() {
   int age = 19;
   print(age);
 
-  double weight = 48.2;
+  double weight = 43.2;
   print(weight);
 
   // Tipe data num bisa berisi bilangan bulat maupun pecahan
@@ -38,4 +38,8 @@ void main() {
   x = "Random Word";
   x = 2020;
   print(x);
+
+  print("Nama saya $name, Saat ini saya berumur $age tahun.");
+  print("Berat badan $weight kg, yah saya memang kurus :)");
+  print("7 + 7 = ${7 + 7}");
 }
